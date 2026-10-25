@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEBB6"/>
+      <stop offset="50%" stop-color="#C59B27"/>
+      <stop offset="100%" stop-color="#9A7513"/>
+    </linearGradient>
+    <linearGradient id="charcoalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2A3E"/>
+      <stop offset="100%" stop-color="#0E1624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Geometric Architectural Emblem Badge -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="60" height="60" rx="10" fill="url(#charcoalGrad)" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <!-- Architectural Columns and Roof Line -->
+    <path d="M15 45 L15 25 L30 14 L45 25 L45 45" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- S Motif in Left Section -->
+    <path d="M22 26 C26 26, 26 31, 22 33 C18 35, 18 41, 24 41" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <!-- K Motif in Right Section -->
+    <path d="M34 24 L34 41 M43 26 L35 34 L43 41" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Foundation Beam -->
+    <line x1="12" y1="48" x2="48" y2="48" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography: SK CONSTRUCTION -->
+  <text x="86" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" letter-spacing="1.5">
+    SK <tspan fill="url(#goldGrad)">CONSTRUCTION</tspan>
+  </text>
+  <text x="88" y="56" font-family="'Inter', sans-serif" font-weight="500" font-size="9.5" fill="#94A3B8" letter-spacing="3">
+    BUILDING TRUST &amp; QUALITY • 10+ YEARS
+  </text>
+</svg>
