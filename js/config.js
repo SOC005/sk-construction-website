@@ -18,37 +18,32 @@ const SITE_CONFIG = {
   // --- CONTACT & COMMUNICATION (EDIT HERE) ---
   // When ready, replace the placeholder numbers with your actual phone & WhatsApp numbers:
   contact: {
-    primaryPhone: "+91 98765 43210",       // Display format for phone
+    primaryPhone: "+91 9685856215",       // Display format for phone
     rawPhone: "919876543210",             // Digits only for tel: link (with country code 91)
-    whatsappNumber: "919876543210",       // WhatsApp number with country code (e.g., 91XXXXXXXXXX)
+    whatsappNumber: "9685856215",       // WhatsApp number with country code (e.g., 91XXXXXXXXXX)
     email: "contact@skconstruction.in",   // Business email address
     
     // Physical Office Location (Configurable)
     office: {
-      addressLine1: "Civil Lines / Main Road",
-      addressLine2: "Near City Center",
-      city: "Raipur",                     // Configurable primary city
+      addressLine1: "Babakuti",
+      addressLine2: "Kayaghat",
+      city: "Raigarh",                     // Configurable primary city
       state: "Chhattisgarh",
-      pincode: "492001",
-      fullAddress: "Main Road, Civil Lines, Raipur, Chhattisgarh 492001"
+      pincode: "496001",
+      fullAddress: "Babakuti, Kayaghat, Raigarh, chhattisgarh"
     },
     
     // Service Coverage Areas in Chhattisgarh
     serviceAreas: [
-      "Raipur",
-      "Durg - Bhilai",
-      "Bilaspur",
-      "Rajnandgaon",
-      "Dhamtari",
-      "Mahasamund",
-      "Across Chhattisgarh"
+      "Raigarh"
+      "Across Chhattisgarh Depending On Contract"
     ],
     
     // Business Working Hours
     hours: {
       days: "Monday – Saturday",
       time: "9:00 AM – 7:30 PM",
-      sunday: "By Prior Appointment"
+      sunday: "By Prior Call"
     },
     
     // Google Maps Embed URL or Place URL (Editable)
